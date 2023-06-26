@@ -1,0 +1,180 @@
+
+body{
+    margin:0;
+    background-color: #FFECEC;
+    text-align: center;    
+}
+p{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.0225rem;
+    word-spacing: 0.125rem;
+    line-height: 2 ;
+    
+    
+}
+.sample-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 30%;
+    margin:auto;
+    
+}
+h1 {
+
+    color: #1B6B93;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    
+    
+}
+h2{
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    color: #11999E;
+}
+h3{
+    color:#11999E;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+.sub-heading{
+    font-family:cursive;
+    font-size: 2rem;
+}
+.tag{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.2rem;
+    margin: 0 0 50px 0 ;
+    
+}
+hr {
+    border: dotted #1B6B93 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+
+}
+.fir{
+    
+    background-image: 
+       url("../images/snow.gif"),
+       url("../images/shine.gif");
+                      
+    background-color: #AEE2FF;
+    margin-bottom: 10px;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.sec{
+    margin: 100px 0 ;
+    
+}
+.pos-left{
+    width: 18%;
+    position: absolute;
+    left:10px
+}
+
+.pos-right{
+    width: 18%;
+    position: absolute;
+    right:10px
+}
+.pos-center {
+    width: 20%;
+    
+    margin: 0 auto 0;
+}
+.thir{
+    background-color: #11999E;
+    padding: 50px 0 30px;
+}
+.footer-link{
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    margin:5px 10px 10px;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #1B6B93;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 250px;
+    bottom: 320px;
+
+}
+.top-cloud{
+    position: absolute;
+    right:40px;
+    top:50px;
+}
+.html-logo{
+    width: 25%;
+    float: left;
+    
+    margin-right: 1.2rem;
+}
+.css-logo{
+    width: 18%;
+    float: right;
+    
+    margin-left: 1.2rem;
+
+}
+.c-logo{
+    width: 25%;
+    float: left;
+    margin-right: 1.2rem;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.pro {
+
+    text-decoration: underline;
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
